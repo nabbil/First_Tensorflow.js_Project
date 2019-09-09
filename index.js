@@ -58,7 +58,7 @@ async function app() {
             const classes = ['A', 'B', 'C'];
             document.getElementById('console').innerText = `
         prediction: ${classes[result.classIndex]}\n
-        probability: ${result.confidences[result.classIndex]}
+        How Confident The AI Model Is: ${result.confidences[result.classIndex]}
       `;
         }
 
